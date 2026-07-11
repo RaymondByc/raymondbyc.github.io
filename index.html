@@ -53,7 +53,7 @@
         <span class="brand-name">Yucai Bai</span>
       </a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
-        <span class="sr-only">Open navigation</span><span></span><span></span>
+        <span class="sr-only" data-menu-label>Open navigation</span><span></span><span></span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
         <a href="#focus">Focus</a><a href="#work">Work</a><a href="#journey">Journey</a><a href="#publications">Research</a>
@@ -87,7 +87,7 @@
       <div class="section-index" data-reveal>01 / Profile</div>
       <div class="intro-grid">
         <div class="portrait-wrap" data-reveal>
-          <div class="portrait-frame"><img src="portrait.jpg" alt="Portrait of Yucai Bai" width="780" height="1134"></div>
+          <div class="portrait-frame"><img src="portrait.jpg" alt="Portrait of Yucai Bai" width="780" height="1134" decoding="async"></div>
           <p class="portrait-note">AI researcher turned engineering leader.</p>
         </div>
         <div class="intro-copy" data-reveal data-delay="100">
@@ -103,6 +103,25 @@
             <a href="mailto:raymondbyc@gmail.com">Email <span aria-hidden="true">↗</span></a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="impact-band shell" aria-label="Professional snapshot">
+      <div class="impact-item" data-reveal>
+        <span class="impact-label">Research to production</span>
+        <strong>Data loops, 3D worlds, and simulation systems</strong>
+      </div>
+      <div class="impact-item" data-reveal data-delay="60">
+        <span class="impact-label">Selected publications</span>
+        <strong>6 selected publications · 2018—2026</strong>
+      </div>
+      <div class="impact-item" data-reveal data-delay="120">
+        <span class="impact-label">Leadership scope</span>
+        <strong>Algorithms, synthetic data, world models, cloud delivery</strong>
+      </div>
+      <div class="impact-item" data-reveal data-delay="180">
+        <span class="impact-label">Operating base</span>
+        <strong>Suzhou · Shanghai · Chinese / English</strong>
       </div>
     </section>
 
@@ -141,7 +160,7 @@
       <div class="work-list">
         <article class="work-card work-card-wide" data-reveal>
           <a class="work-visual digital-twin-visual" href="https://arxiv.org/abs/2510.25173" target="_blank" rel="noreferrer" aria-label="Read D squared GS paper">
-            <img src="assets/images/hero-digital-twin.webp" alt="Conceptual visualization of an urban scene transitioning into a 3D reconstruction" width="1823" height="863"><span class="visual-tag">NeurIPS 2025</span><span class="visual-action" aria-hidden="true">↗</span>
+            <img src="assets/images/hero-digital-twin.webp" alt="Conceptual visualization of an urban scene transitioning into a 3D reconstruction" width="1823" height="863" decoding="async"><span class="visual-tag">NeurIPS 2025</span><span class="visual-action" aria-hidden="true">↗</span>
           </a>
           <div class="work-content"><div class="work-meta"><span>Research</span><span>2025</span></div><h3>D²GS: LiDAR-free urban scene reconstruction</h3><p>Dense depth regularization and diffusion priors for accurate 3D Gaussian Splatting—reducing dependence on precisely aligned LiDAR while improving urban geometry.</p><a class="text-link" href="https://arxiv.org/abs/2510.25173" target="_blank" rel="noreferrer">Read the paper <span aria-hidden="true">↗</span></a></div>
         </article>
@@ -156,13 +175,13 @@
         <article class="work-card" data-reveal data-delay="80">
           <a class="work-visual trellis-visual" href="https://arxiv.org/abs/2606.24301" target="_blank" rel="noreferrer" aria-label="Read MM-TRELLIS paper">
             <svg class="trellis-svg" viewBox="0 0 760 430" aria-hidden="true"><defs><linearGradient id="carFill" x1="0" x2="1"><stop stop-color="#d8f7ff" stop-opacity=".15"/><stop offset="1" stop-color="#5dd8ff" stop-opacity=".55"/></linearGradient></defs><g class="scan-lines"><path d="M70 100h620M70 160h620M70 220h620M70 280h620M70 340h620"/><path d="M130 60v320M230 60v320M330 60v320M430 60v320M530 60v320M630 60v320"/></g><g class="car-wire"><path d="M165 274l54-92c12-21 35-34 59-36l176-10c28-2 54 11 70 34l53 76 55 18v46H128v-26l37-10Z" fill="url(#carFill)"/><path d="M252 187l29-17 167-10c19-1 38 7 50 23l35 48-291 5 10-49Z"/><circle cx="238" cy="310" r="46"/><circle cx="536" cy="310" r="46"/></g><g class="point-cloud"><circle cx="119" cy="167" r="3"/><circle cx="145" cy="124" r="2"/><circle cx="191" cy="92" r="4"/><circle cx="230" cy="116" r="2"/><circle cx="287" cy="83" r="3"/><circle cx="338" cy="105" r="2"/><circle cx="396" cy="72" r="3"/><circle cx="456" cy="102" r="4"/><circle cx="513" cy="82" r="2"/><circle cx="579" cy="123" r="3"/><circle cx="635" cy="99" r="2"/><circle cx="670" cy="155" r="4"/></g></svg>
-            <span class="visual-tag">ICRA · 2026</span><span class="visual-action" aria-hidden="true">↗</span>
+            <span class="visual-tag">arXiv · 2026</span><span class="visual-action" aria-hidden="true">↗</span>
           </a>
-          <div class="work-content"><div class="work-meta"><span>ICRA · 3D generation</span><span>2026</span></div><h3>MM-TRELLIS: Multi-modal 3D vehicle generation</h3><p>A point-cloud-guided extension of native 3D generation for high-fidelity vehicle assets from in-the-wild driving data.</p><a class="text-link" href="https://arxiv.org/abs/2606.24301" target="_blank" rel="noreferrer">Read the paper <span aria-hidden="true">↗</span></a></div>
+          <div class="work-content"><div class="work-meta"><span>Research · 3D generation</span><span>2026</span></div><h3>MM-TRELLIS: Multi-modal 3D vehicle generation</h3><p>A point-cloud-guided extension of native 3D generation for high-fidelity vehicle assets from in-the-wild driving data.</p><a class="text-link" href="https://arxiv.org/abs/2606.24301" target="_blank" rel="noreferrer">Read the paper <span aria-hidden="true">↗</span></a></div>
         </article>
 
         <article class="work-card work-card-image" data-reveal>
-          <div class="work-visual legacy-visual"><img src="images/occupancy.jpg" alt="Occupancy ground-truth visualization generated from multi-frame point clouds" width="1847" height="567" loading="lazy"><span class="visual-tag">4D perception</span></div>
+          <div class="work-visual legacy-visual"><img src="images/occupancy.jpg" alt="Occupancy ground-truth visualization generated from multi-frame point clouds" width="1280" height="677" loading="lazy" decoding="async"><span class="visual-tag">4D perception</span></div>
           <div class="work-content"><div class="work-meta"><span>Perception data</span><span>2022—2025</span></div><h3>4D automatic labeling and occupancy ground truth</h3><p>Multi-frame fusion, motion compensation, semantic labeling, tracking, and velocity estimation for precise off-board ground truth.</p></div>
         </article>
       </div>
@@ -190,7 +209,7 @@
         <p>Research across 3D reconstruction, autonomous-driving simulation, transfer learning, and visual perception.</p>
       </div>
       <div class="publication-list">
-        <a class="publication featured-publication" href="https://arxiv.org/abs/2606.24301" target="_blank" rel="noreferrer" data-reveal><span class="publication-year">2026</span><span class="publication-main"><strong>MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving</strong><small>H. Xiao, Y. Zhang, Y. Bai, et al.</small></span><span class="publication-venue">ICRA</span><span class="publication-arrow" aria-hidden="true">↗</span></a>
+        <a class="publication featured-publication" href="https://arxiv.org/abs/2606.24301" target="_blank" rel="noreferrer" data-reveal><span class="publication-year">2026</span><span class="publication-main"><strong>MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving</strong><small>H. Xiao, Y. Zhang, Y. Bai, et al.</small></span><span class="publication-venue">arXiv</span><span class="publication-arrow" aria-hidden="true">↗</span></a>
         <a class="publication featured-publication" href="https://arxiv.org/abs/2510.25173" target="_blank" rel="noreferrer" data-reveal><span class="publication-year">2025</span><span class="publication-main"><strong>D²GS: Dense Depth Regularization for LiDAR-free Urban Scene Reconstruction</strong><small>K. Xia, J. Jia, K. Jin, Y. Bai, et al.</small></span><span class="publication-venue">NeurIPS</span><span class="publication-arrow" aria-hidden="true">↗</span></a>
         <a class="publication" href="https://link.springer.com/article/10.1007/s11263-023-01771-4" target="_blank" rel="noreferrer" data-reveal><span class="publication-year">2023</span><span class="publication-main"><strong>Extremely Low Resolution Action Recognition with Confident Spatial-Temporal Attention Transfer</strong><small>Y. Bai, Q. Zou, et al.</small></span><span class="publication-venue">IJCV</span><span class="publication-arrow" aria-hidden="true">↗</span></a>
         <a class="publication" href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220314995" target="_blank" rel="noreferrer" data-reveal><span class="publication-year">2021</span><span class="publication-main"><strong>Low-Dose CT Image Denoising Using Residual Convolutional Network with Fractional TV Loss</strong><small>M. Chen, Y.-F. Pu, Y.-C. Bai</small></span><span class="publication-venue">Neurocomputing</span><span class="publication-arrow" aria-hidden="true">↗</span></a>
@@ -204,7 +223,7 @@
       <div class="contact-glow" aria-hidden="true"></div>
       <div class="shell contact-inner">
         <div data-reveal><div class="section-index">06 / Connect</div><p class="contact-kicker">Ideas become systems through good conversations.</p><h2 id="contact-title">Let's build what<br>comes <em>next.</em></h2></div>
-        <div class="contact-side" data-reveal data-delay="120"><p>I'm interested in ambitious work across autonomous-driving data, neural simulation, world models, and Physical AI.</p><a class="contact-email" href="mailto:raymondbyc@gmail.com">raymondbyc@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://github.com/RaymondByc" target="_blank" rel="noreferrer">GitHub</a><a href="https://scholar.google.com/citations?user=zEhtuI0AAAAJ" target="_blank" rel="noreferrer">Google Scholar</a></div></div>
+        <div class="contact-side" data-reveal data-delay="120"><p>I'm interested in ambitious work across autonomous-driving data, neural simulation, world models, and Physical AI.</p><div class="contact-actions"><a class="contact-email" href="mailto:raymondbyc@gmail.com">raymondbyc@gmail.com <span aria-hidden="true">↗</span></a><button class="copy-email" type="button" data-copy-email data-copy-value="raymondbyc@gmail.com"><span data-copy-label>Copy email</span></button></div><div class="contact-links"><a href="https://github.com/RaymondByc" target="_blank" rel="noreferrer">GitHub</a><a href="https://scholar.google.com/citations?user=zEhtuI0AAAAJ" target="_blank" rel="noreferrer">Google Scholar</a></div></div>
       </div>
     </section>
   </main>
